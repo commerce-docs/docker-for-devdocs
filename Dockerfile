@@ -9,10 +9,10 @@ RUN gem install \
 
 ENV LANG C.UTF-8
 
-# RUN git clone https://github.com/magento-devdocs/devdocs-theme.git
+# RUN git clone https://github.com/commerce-docs/devdocs-theme.git
 # RUN cd devdocs-theme && gem build devdocs.gemspec && gem install --local ./devdocs-0.0.1.gem
 
-# RUN gem specific_install https://github.com/magento-devdocs/devdocs-theme.git -b master
+# RUN gem specific_install https://github.com/commerce-docs/devdocs-theme.git -b master
 
 VOLUME /src
 EXPOSE 4000
